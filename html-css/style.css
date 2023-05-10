@@ -1,0 +1,410 @@
+@charset "UTF-8";
+
+                                                                                                        /*Para telas 1920/1024 */
+
+body, p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.div1, img {
+    flex: 1;
+    height: 1024px;
+    max-width: 1000px;
+}
+
+.div2 {
+    flex: 1;
+    color: #fff;
+    
+}
+
+#principal {
+    text-align: left;
+    color: #FFA500;
+    font-size: 40px;
+    max-width: 650px;
+    margin-left: 100px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+#p1 {
+    text-align: left;
+    font-size: 20px;
+    max-width: 650px;
+    margin-left: 100px;
+}
+
+.area-login {
+
+    font-size: 25px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+#logo{
+
+    font-size: 25px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 455px;
+    height: 320px;
+    padding: 40px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: #252A34;
+    color: #cbd0f7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.login input::placeholder {
+    color: #cbd0f7;
+    font-size: 18px
+    
+}
+
+#p3{
+    margin-top: 10px;
+
+}
+
+                                                                                                                    /* telas inferiores a 1920/1080  -- 1280/1024 */
+
+@media screen and (max-width: 1920px){
+
+
+.div1, img {
+    flex: 1;
+    height: 1024px;
+    max-width: 620px;
+}
+
+.div2 {
+    flex: 1;
+    color: #fff;
+    
+}
+
+#principal {
+    text-align: left;
+    color: #FFA500;
+    font-size: 30px;
+    max-width: 550px;
+    margin-left: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#p1 {
+    text-align: left;
+    font-size: 16px;
+    max-width: 550px;
+    margin-left: 40px;
+}
+
+.area-login {
+
+    font-size: 25px;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#logo{
+    
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: #252A34;
+    color: #cbd0f7;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.login input::placeholder {
+    color: #cbd0f7;
+    font-size: 13px;
+    
+}
+
+#p3{
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+}
+
+
+
+                                                                                                        /* telas inferiores a 1280/1024  -- 1280/720 */
+
+
+
+@media screen and (max-width: 1280px){
+
+
+.div1, img {
+    flex: 1;
+    height: 720px;
+    max-width: 620px;
+}
+
+.div2 {
+    flex: 1;
+    color: #fff;
+    
+}
+
+#principal {
+    text-align: left;
+    color: #FFA500;
+    font-size: 30px;
+    max-width: 550px;
+    margin-left: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#p1 {
+    text-align: left;
+    font-size: 16px;
+    max-width: 550px;
+    margin-left: 40px;
+}
+
+.area-login {
+
+    font-size: 25px;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#logo{
+    
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: #252A34;
+    color: #cbd0f7;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.login input::placeholder {
+    color: #cbd0f7;
+    font-size: 13px;
+    
+}
+
+#p3{
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+}
+
+
+                                                                                                      /* telas inferiores a 1280/720  -- 480/800 */
+
+
+
+@media screen and (max-width: 500px){
+
+    .container {
+        display: block;
+        height: 100vh;
+        width: 400px;
+        flex-wrap: wrap;
+        background-color: rgb(0, 0, 0);
+        flex-direction: column;
+     
+    }
+
+
+.div1, img {
+    flex: 1;
+    height: 242px;
+    max-width: 400px;
+   
+}
+
+    
+
+.div2 {
+   
+    flex: 1;
+    color: #fff;
+    width: 400px;
+
+}
+
+#principal {
+    text-align: left;
+    color: #FFA500;
+    font-size: 20px;
+    max-width: 350px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+   
+
+}
+
+#p1 {
+    text-align: left;
+    font-size: 12px;
+    max-width: 355px;
+    margin-left: 15px;
+}
+
+.area-login {
+
+    font-size: 15px;
+    display: flex;
+    height: 180px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 80px;
+  
+}
+
+#logo{
+    
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: #252A34;
+    color: #cbd0f7;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.login input::placeholder {
+    color: #cbd0f7;
+    font-size: 13px;
+    
+}
+
+#p3{
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+}
